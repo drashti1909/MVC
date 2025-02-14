@@ -9,7 +9,7 @@ var debug = require('debug')('1.-mvc:server');
 var http = require('http');
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/API')
+mongoose.connect('mongodb+srv://nodejs:123@cluster0.4c6qt.mongodb.net/API')
   .then(() => console.log('Connected!'));
 
 /**
